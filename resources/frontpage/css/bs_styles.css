@@ -1,0 +1,36 @@
+
+.red {
+    color: red;
+}
+.white {
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+.center {
+    text-align: center;
+}
+.panel-body .row {
+    margin-top: 20px;
+}
+.front #page-wrapper {
+    border-left: 1px solid #e7e7e7;
+    min-height: 1300px;
+    padding: 50px 30px 0;
+    position: inherit;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+form .row {
+    margin-top: 0 !important;
+}
+body {
+    padding-top: 60px;
+}
+.nouv_row {
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}

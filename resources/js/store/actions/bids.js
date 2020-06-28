@@ -1,0 +1,1 @@
+export const SET_ORDER_BIDS = 'SET_ORDER_BIDS'

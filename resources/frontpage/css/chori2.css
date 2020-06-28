@@ -1,0 +1,147 @@
+
+#body.homepage {
+    background: rgba(0, 0, 0, 0) url("../img/blackboard21.jpg") repeat-x scroll 0 0;
+}
+#homework_cta {
+    height: 275px;
+}
+#fukedup {
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+#fukedup2 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+#fukedup3 {
+    background-color: #ffffff;
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+textarea#styled {
+    background-image: url("bg.gif");
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: 3px solid #cccccc;
+    font-family: Tahoma,sans-serif;
+    font-size: 18px;
+    height: 155px;
+    padding: 5px;
+    width: 300px;
+}
+#homework_cta a {
+    color: #000;
+}
+#homepage_post_button {
+    margin: 0;
+}
+#homepage_post_learn_more {
+    margin: 0 0 0 10px;
+}
+.homework_cta_index h2 {
+    font: bold 40px Arial,Helvetica,sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.homework_cta_text h2 {
+    font: bold 24px Arial,Helvetica,sans-serif;
+    margin: 0 0 0 10px;
+}
+.homework_cta_text {
+    float: left;
+}
+#homework_cta h2 .small {
+    font: 14px Arial,Helvetica,sans-serif;
+}
+#homework_cta_get_started textarea {
+    font: 16px/1.4em Arial,Helvetica,sans-serif;
+    height: 90px;
+    margin: 120px 0 0 35px;
+    padding: 5px;
+    width: 235px;
+}
+#homework_cta a {
+    color: #000;
+}
+#homepage_post_button {
+    margin: 10px 0 0 35px;
+}
+#homepage_post_learn_more {
+    margin: 0 0 0 10px;
+}
+#homepage_browse {
+    float: left;
+    width: 630px;
+}
+#right_side {
+    float: right;
+    margin: 0 20px 0 0;
+    width: 288px;
+}
+#facebook {
+    height: 400px;
+    margin: 0 0 20px;
+}
+input, textarea {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 2px 5px 3px;
+}
+.defaultText {
+}
+.defaultTextActive {
+    color: #a1a1a1;
+}
+#box {
+    background: #e5f1f4 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    margin: 60px auto;
+    padding: 2em 1.5em;
+    position: relative;
+    text-shadow: 0 1px 0 #fff;
+    width: 60%;
+}
+#box::before, #box::after {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    bottom: 15px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    content: "";
+    left: 10px;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    transform: rotate(-3deg);
+    width: 50%;
+    z-index: -1;
+}
+#box::after {
+    left: auto;
+    right: 10px;
+    transform: rotate(3deg);
+}
+.classname {
+    background: #fe1a00 -moz-linear-gradient(center top , #fe1a00 5%, #ce0100 100%) repeat scroll 0 0;
+    border: 1px solid #d83526;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 0 #f29c93 inset;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #b23e35;
+}
+.classname:hover {
+    background: #ce0100 -moz-linear-gradient(center top , #ce0100 5%, #fe1a00 100%) repeat scroll 0 0;
+}
+.classname:active {
+    position: relative;
+    top: 1px;
+}

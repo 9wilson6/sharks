@@ -1,0 +1,221 @@
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.tab {
+    background: rgba(0, 0, 0, 0) url("../img/tab_b.png") repeat-x scroll 0 0;
+    height: 42px;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+.tab ul.login {
+    clear: right;
+    color: white;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    margin: 0;
+    position: relative;
+    right: 150px;
+    text-align: center;
+    width: auto;
+}
+.tab ul.login li.left {
+    background: rgba(0, 0, 0, 0) url("../img/tab_l.png") no-repeat scroll left 0;
+    display: block;
+    float: left;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+}
+.tab ul.login li.right {
+    background: rgba(0, 0, 0, 0) url("../img/tab_r.png") no-repeat scroll left 0;
+    display: block;
+    float: left;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+}
+.tab ul.login li {
+    background: rgba(0, 0, 0, 0) url("../img/tab_m.png") repeat-x scroll 0 0;
+    display: block;
+    float: left;
+    height: 42px;
+    padding: 0 6px;
+    text-align: left;
+}
+.tab ul.login li a {
+    color: #15adff;
+}
+.tab ul.login li a:hover {
+    color: white;
+}
+.tab .sep {
+    color: #414141;
+}
+.tab a.open, .tab a.close {
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    line-height: 20px !important;
+    padding-left: 30px !important;
+    position: relative;
+    top: 11px;
+    width: 100px;
+}
+.tab a.open {
+    background: rgba(0, 0, 0, 0) url("../img/bt_open.png") no-repeat scroll left 0;
+}
+.tab a.close {
+    background: rgba(0, 0, 0, 0) url("../img/bt_close.png") no-repeat scroll left 0;
+}
+.tab a.open:hover {
+    background: rgba(0, 0, 0, 0) url("../img/bt_open.png") no-repeat scroll left -19px;
+}
+.tab a.close:hover {
+    background: rgba(0, 0, 0, 0) url("../img/bt_close.png") no-repeat scroll left -19px;
+}
+#toppanel {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+#panel {
+    background: #272727 none repeat scroll 0 0;
+    color: #999999;
+    display: none;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+#panel h1 {
+    color: white;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 5px 0 10px;
+}
+#panel h2 {
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0 5px;
+}
+#panel p {
+    margin: 5px 0;
+    padding: 0;
+}
+#panel a {
+    color: #15adff;
+    text-decoration: none;
+}
+#panel a:hover {
+    color: white;
+}
+#panel a-lost-pwd {
+    display: block;
+    float: left;
+}
+#panel .content {
+    font-size: 0.85em;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: left;
+    width: 960px;
+}
+#panel .content .left {
+    border-left: 1px solid #333;
+    float: left;
+    padding: 0 15px;
+    width: 280px;
+}
+#panel .content .right {
+    border-right: 1px solid #333;
+}
+#panel .content form {
+    margin: 0 0 10px;
+}
+#panel .content label {
+    clear: both;
+    display: block;
+    float: left;
+    padding-top: 8px;
+    width: 280px;
+}
+#panel .content input.field {
+    background: #414141 none repeat scroll 0 0;
+    border: 1px solid #1a1a1a;
+    color: white;
+    height: 16px;
+    margin-right: 5px;
+    margin-top: 4px;
+    width: 200px;
+}
+#panel .content input.field:focus {
+    background: #545454 none repeat scroll 0 0;
+}
+#panel .content input.bt_login, #panel .content input.bt_register {
+    border: medium none;
+    clear: left;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+#panel .content input.bt_login {
+    background: transparent url("../img/bt_login.png") no-repeat scroll 0 0;
+    width: 74px;
+}
+#panel .content input.bt_register {
+    background: transparent url("../img/bt_register.png") no-repeat scroll 0 0;
+    color: white;
+    width: 94px;
+}
+#panel .lost-pwd {
+    clear: right;
+    display: block;
+    float: left;
+    font-size: 0.95em;
+    padding: 15px 5px 0;
+    text-decoration: underline;
+}

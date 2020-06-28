@@ -1,0 +1,118 @@
+
+#submitButton {
+    background: rgba(0, 0, 0, 0) url("../img/submit_form.png") no-repeat scroll right top;
+    border: medium none;
+    cursor: pointer;
+    height: 31px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 96px;
+}
+#submitButton:hover {
+    background-position: right bottom;
+}
+#selectButton {
+    background: rgba(0, 0, 0, 0) url("../img/select_form.png") no-repeat scroll right top;
+    border: medium none;
+    cursor: pointer;
+    height: 31px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 96px;
+}
+#selectButton:hover {
+    background-position: right bottom;
+}
+#sendButton {
+    background: rgba(0, 0, 0, 0) url("../img/send_form.png") no-repeat scroll right top;
+    border: medium none;
+    cursor: pointer;
+    height: 31px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 96px;
+}
+#sendButton:hover {
+    background-position: right bottom;
+}
+#ratepayButton {
+    background: rgba(0, 0, 0, 0) url("../img/ratepay_form.png") no-repeat scroll right top;
+    border: medium none;
+    cursor: pointer;
+    height: 31px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 96px;
+}
+#ratepayButton:hover {
+    background-position: right bottom;
+}
+#withdrawButton {
+    background: rgba(0, 0, 0, 0) url("../img/withdraw_form.png") no-repeat scroll right top;
+    border: medium none;
+    cursor: pointer;
+    height: 31px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 96px;
+}
+#withdrawButton:hover {
+    background-position: right bottom;
+}
+#fundButton {
+    background: rgba(0, 0, 0, 0) url("../img/paynow.png") repeat scroll 0 0;
+}
+#cancelButton {
+    background: rgba(0, 0, 0, 0) url("../img/cancelquestion.gif") repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 45px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 200px;
+}
+#releaseButton {
+    background: rgba(0, 0, 0, 0) url("../img/releasedollar.gif") repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 45px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 200px;
+}
+#rejectButton {
+    background: rgba(0, 0, 0, 0) url("../img/rejectanswer.gif") repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 45px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 200px;
+}
+#liveButton {
+    background: rgba(0, 0, 0, 0) url("../img/questionlive.gif") repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 45px;
+    line-height: 31px;
+    text-indent: -99999px;
+    text-transform: uppercase;
+    top: 10px;
+    width: 200px;
+}
