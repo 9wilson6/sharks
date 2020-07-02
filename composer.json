@@ -11,6 +11,7 @@
         "coconutcraig/laravel-postmark": "^2.8",
         "doctrine/dbal": "^2.10",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^6.2",
         "infobip/infobip-api-php-client": "dev-master",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
@@ -23,7 +24,9 @@
         "predis/predis": "^1.1",
         "publiux/laravelcdn": "~2.0",
         "pusher/pusher-php-server": "^4.1",
-        "spatie/laravel-permission": "^2.25"
+        "spatie/laravel-permission": "^2.25",
+        "wildbit/postmark-php": "^2.11",
+        "wildbit/swiftmailer-postmark": "^3.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
